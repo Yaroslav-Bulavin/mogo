@@ -5,43 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://kit.fontawesome.com/6a89a444bb.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:300i,400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:300i,400,700&display=swap&subset=cyrillic-ext" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <title>Mogo</title>
-    <link rel="manifest" href="manifest.json">
-    <script>
-        if('serviceWorker' in navigator) {
-            navigator.serviceWorker
-            .register("/sw.js")
-            .then(function () {
-                console.log("Service Worker registered");
-            });
-        }
-    </script>
+    <title>CloudLayout</title>
 </head>
 
 <body>
  <header class="header" id="header">
      <div class="container">
       <div class="header_inner">
-          <div class="header_logo" data-scroll="#intro">MoGo</div>
+          <div class="header_logo" data-scroll="#intro">CloudLayout</div>
           <nav class="nav" id="nav">
              <a class="nav_link active" href="#"
                 data-scroll="#about">About</a>
              <a class="nav_link" href="#"
                 data-scroll="#service">Service</a>
              <a class="nav_link" href="#"
-                data-scroll="#work">Work</a>
+                data-scroll="#work">offices</a>
              <a class="nav_link" href="#"
                 data-scroll="#blog">Blog</a>
              <a class="nav_link" href="#"
                 data-scroll="#contact">Contact</a>
-              <a class="nav_link" href="#">
-                  <i class="fas fa-shopping-cart"></i>
-              </a>
-              <a class="nav_link" href="#">
-                  <i class="fas fa-search"></i>
-              </a>
           </nav>
           <button class="nav-toggle" type="button" id="nav-toggle">
               <span class="nav-toggle_item">Menu</span>
@@ -53,8 +37,8 @@
    <div class="intro" id="intro">
      <div class="container">
          <div class="intro_inner">
-             <h2 class="intro_suptitle">Creative Template</h2>
-             <h1 class="intro_title">Welcome to Mogo</h1>
+             <h2 class="intro_suptitle">The new era of web-design</h2>
+             <h1 class="intro_title">Welcome to CloudLayout</h1>
              <a class="btn" href="#">Learn more</a>
          </div>
      </div>
@@ -89,11 +73,9 @@
                <h3 class="section_suptitle">What we do</h3>
                <h2 class="section_title">Story about us</h2>
                <div class="section_text">
-                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                       sed do eiusmod tempor incididunt ut labore et
-                       dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                       exercitation ullamco laboris nisi ut aliquip ex ea
-                       commodo consequat.</p>
+                   <p>We make large sites for large companies using the latest
+                       technology and beautiful effects. We cooperate with companies
+                       such as: Blizzard, Wargaming, Destiny, Valve and more others.</p>
                </div>
            </div>
         <div class="about">
@@ -102,7 +84,7 @@
                     <div class="about_img">
                         <img src="assets/images/about/1.jpg" alt="">
                     </div>
-                    <div class="about_text">super team</div>
+                    <div class="about_text">CloudLayout</div>
                 </div>
             </div>
             <div class="about_item">
@@ -110,7 +92,7 @@
                     <div class="about_img">
                         <img src="assets/images/about/2.jpg" alt="">
                     </div>
-                    <div class="about_text">super team</div>
+                    <div class="about_text">CloudLayout</div>
                 </div>
             </div>
             <div class="about_item">
@@ -118,7 +100,7 @@
                     <div class="about_img">
                         <img src="assets/images/about/3.jpg" alt="">
                     </div>
-                    <div class="about_text">super team</div>
+                    <div class="about_text">CloudLayout</div>
                 </div>
             </div>
         </div>
@@ -130,11 +112,11 @@
      <div class="container">
          <div class="stat">
              <div class="stat_item">
-                <div class="stat_numb">42</div>
+                <div class="stat_numb">150</div>
                 <div class="stat_text">Web Design Projects</div>
              </div>
              <div class="stat_item">
-                <div class="stat_numb">123</div>
+                <div class="stat_numb">139</div>
                 <div class="stat_text">happy client</div>
              </div>
              <div class="stat_item">
@@ -142,8 +124,8 @@
                 <div class="stat_text">award winner</div>
              </div>
              <div class="stat_item">
-                <div class="stat_numb">99</div>
-                <div class="stat_text">cup of coffee</div>
+                <div class="stat_numb">150</div>
+                <div class="stat_text">completed orders</div>
              </div>
              <div class="stat_item">
                 <div class="stat_numb">24</div>
@@ -164,38 +146,34 @@
              <div class="services_item services_item--border">
                  <img class="services_icon" src="assets/images/services/photography.png" alt="">
                  <div class="services_title">Photography</div>
-                 <div class="services_text">Lorem ipsum dolor sit amet, consectetur
-                     adipiscing elit, sed do.</div>
+                 <div class="services_text">Personally take photos and videos for your
+                     future site, on the newest camera.</div>
              </div>
              <div class="services_item services_item--border">
                  <img class="services_icon" src="assets/images/services/web design.png" alt="">
                  <div class="services_title">Web design</div>
-                 <div class="services_text">Ipsum dolor sit amet, consectetur
-                     adipiscing elit, sed do eiusmod.</div>
+                 <div class="services_text">Make template for your future site
+                     using Photoshop and AdobeXD.</div>
              </div>
              <div class="services_item services_item--border">
                  <img class="services_icon" src="assets/images/services/creativity.png" alt="">
                  <div class="services_title">Creativity</div>
-                 <div class="services_text">Dolor sit amet, consectetur
-                     adipiscing elit, sed do eiusmod.</div>
+                 <div class="services_text">Creatively approach the creation of each project for our favorite clients.</div>
              </div>
              <div class="services_item">
                  <img class="services_icon" src="assets/images/services/seo.png" alt="">
                  <div class="services_title">Seo</div>
-                 <div class="services_text">Ipsum dolor sit amet, consectetur
-                     adipiscing elit, sed do eiusmod.</div>
+                 <div class="services_text">We will personally promote your site within one week.</div>
              </div>
              <div class="services_item">
                  <img class="services_icon" src="assets/images/services/css-html.png" alt="">
-                 <div class="services_title">Css/html</div>
-                 <div class="services_text">Lorem dolor sit amet, consectetur
-                     adipiscing elit, sed do tempor.</div>
+                 <div class="services_title">Css/js</div>
+                 <div class="services_text">Use the latest features CSS/JS to achieve beautiful effects.</div>
              </div>
              <div class="services_item">
                  <img class="services_icon" src="assets/images/services/digital.png" alt="">
-                 <div class="services_title">Digital</div>
-                 <div class="services_text">Sit amet, consectetur adipiscing elit,
-                     sed do eiusmod tempor.</div>
+                 <div class="services_title">Adaptive</div>
+                 <div class="services_text">Make your future site adaptive for all devices.</div>
              </div>
          </div>
      </div>
@@ -205,7 +183,7 @@
      <div class="container">
          <div class="section_header">
              <h3 class="section_suptitle">For all devices</h3>
-             <h2 class="section_title">Unique design</h2>
+             <h2 class="section_title">Adaptive layout</h2>
          </div>
          <div class="device">
              <img class="device_item" src="assets/images/device/ipad.png" alt="">
@@ -220,11 +198,10 @@
              <h3 class="section_suptitle">What we do</h3>
              <h2 class="section_title">Service</h2>
              <div class="section_text">
-                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                     sed do eiusmod tempor incididunt ut labore et
-                     dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                     exercitation ullamco laboris nisi ut aliquip ex ea
-                     commodo consequat.</p>
+                 <p>We make your site personally from start to finish,
+                     we follow correct work for 2 months after
+                     uploading it to the network. Our team consists of 24 people,
+                     each people - master in his work, and make only the work of his speciality</p>
              </div>
          </div>
          <div class="wedo">
@@ -239,14 +216,12 @@
                                 <div class="accordion_title">Photography</div>
                             </div>
                          <div class="accordion_content">
-                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                 sed do eiusmod tempor incididunt ut labore et dolore
-                                 magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                 exercitation ullamco laboris nisi ut aliquip ex ea
-                                 commodo consequat. Duis aute irure dolor in
-                                 reprehenderit in voluptate velit esse cillum dolore
-                                 eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                                 non proident.</p>
+                             <p>We have our own professional photographer and video shooter who will
+                                 do everything so that the pictures and video files on your site are
+                                 shot and made at the highest level. Just contact our master,
+                                 and he will work with you at any time from 9:00 to 18:00 on weekdays.
+                                 The cost of the photographer and the videographer is
+                                 included in the cost of the project.</p>
                          </div>
                      </div>
                      <div class="accordion_item">
@@ -255,14 +230,11 @@
                              <div class="accordion_title">Creativity</div>
                          </div>
                          <div class="accordion_content">
-                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                 sed do eiusmod tempor incididunt ut labore et dolore
-                                 magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                 exercitation ullamco laboris nisi ut aliquip ex ea
-                                 commodo consequat. Duis aute irure dolor in
-                                 reprehenderit in voluptate velit esse cillum dolore
-                                 eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                                 non proident.</p>
+                             <p>For each site, we ourselves develop our own design and our own template,
+                                 this gives confidence that your site will not look like any other
+                                 site on the network. We can make all your wishes related to design a reality:
+                                 be it a business website in a strict style,
+                                 or a colorful website-store.</p>
                          </div>
                      </div>
                      <div class="accordion_item">
@@ -271,14 +243,11 @@
                              <div class="accordion_title">web design</div>
                          </div>
                          <div class="accordion_content">
-                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                 sed do eiusmod tempor incididunt ut labore et dolore
-                                 magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                 exercitation ullamco laboris nisi ut aliquip ex ea
-                                 commodo consequat. Duis aute irure dolor in
-                                 reprehenderit in voluptate velit esse cillum dolore
-                                 eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                                 non proident.</p>
+                             <p>We personally developing a template for your website,
+                                 which our web designers are working on. All web-designers -
+                                 are professionals with higher education in their field
+                                 of work and everyone has extensive experience working with
+                                 the most demanding clients and companies.</p>
                          </div>
                      </div>
                  </div>
@@ -295,25 +264,32 @@
                     <div class="reviews_item">
                         <img class="reviews_icon" src="assets/images/works/icon.png" alt="">
                         <div class="reviews_text">
-                            <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                            sed do eiusmod tempor incididunt ut labore et dolore
-                            magna aliqua. Ut enim ad minim veniam, quis
-                                nostrud exercitation.”</p>
+                            <p>“Society is better acquainted with poor design than with good design.
+                                It is because of this that people prefer poor design over good.
+                                They have become too busy with what they are. Everything new
+                                begins to frighten, and the old consoles them.”</p>
                         </div>
-                        <div class="reviews_author">Jon Doe</div>
+                        <div class="reviews_author">Paul Rand</div>
                     </div>
                 </div>
-
                 <div>
                     <div class="reviews_item">
                         <img class="reviews_icon" src="assets/images/works/icon.png" alt="">
                         <div class="reviews_text">
-                            <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                sed do eiusmod tempor incididunt ut labore et dolore
-                                magna aliqua. Ut enim ad minim veniam, quis
-                                nostrud exercitation.”</p>
+                            <p>“There are three answers to the design result - yes, no, and WOW! "Wow" is something to strive for."</p>
                         </div>
-                        <div class="reviews_author">Benjamin Bean</div>
+                        <div class="reviews_author">Milton Glaser</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="reviews_item">
+                        <img class="reviews_icon" src="assets/images/works/icon.png" alt="">
+                        <div class="reviews_text">
+                            <p>“I have never had problems with bad customers.
+                                There is no such thing as a bad customer. Part of our job is to do
+                                this job well, and get the client to accept it.”</p>
+                        </div>
+                        <div class="reviews_author">Bob Gill</div>
                     </div>
                 </div>
             </div>
@@ -327,11 +303,10 @@
              <h3 class="section_suptitle">Who we are</h3>
              <h2 class="section_title">Meet our team</h2>
              <div class="section_text">
-                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                     sed do eiusmod tempor incididunt ut labore et dolore magna
-                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                     ullamco laboris nisi ut aliquip ex ea commodo
-                     consequat. </p>
+                 <p>We suggest you familiarize yourself with our three mentors,
+                     they themselves monitor the execution of work on time,
+                     and will not allow the delivery of a bad project to the client.
+                     Each mentor has over 6 years of experience in their field of work. </p>
              </div>
          </div>
          <div class="about">
@@ -359,7 +334,7 @@
                 </div>
                  <div class="about_info">
                      <div class="about_name">Matthew Dix</div>
-                     <div class="about_prof">Graphic Design</div>
+                     <div class="about_prof">SEO promotion</div>
                  </div>
              </div>
              <div class="about_item">
@@ -386,7 +361,7 @@
                 </div>
                  <div class="about_info">
                      <div class="about_name">Christopher Campbell</div>
-                     <div class="about_prof">Branding/UX design</div>
+                     <div class="about_prof">UI/UX design</div>
                  </div>
              </div>
              <div class="about_item">
@@ -413,7 +388,7 @@
                 </div>
                  <div class="about_info">
                      <div class="about_name">Michael Fertig</div>
-                     <div class="about_prof">Developer</div>
+                     <div class="about_prof">Front-end Developer</div>
                  </div>
              </div>
          </div>
@@ -448,8 +423,8 @@
     <section class="section" id="work">
         <div class="container">
             <div class="section_header">
-                <h3 class="section_suptitle">Who we are</h3>
-                <h2 class="section_title">Meet our team</h2>
+                <h3 class="section_suptitle">Welcome to us</h3>
+                <h2 class="section_title">interior of our offices</h2>
                 <div class="section_text">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore magna
@@ -462,58 +437,65 @@
            <div class="works">
                <div class="works_col">
                    <div class="works_item">
-                        <img class="works_image" src="assets/images/works/1.jpg" alt="">
+                        <img class="works_image" src="assets/images/works/office1.jpg" alt="">
                         <div class="works_info">
-                           <div class="works_title">creatively designed</div>
-                           <div class="works_text">Lorem ipsum dolor sit</div>
+                           <div class="works_title">CloudLayout</div>
+                           <div class="works_text">Interior</div>
                         </div>
                    </div>
                    <div class="works_item">
-                       <img class="works_image" src="assets/images/works/2.jpg" alt="">
+                       <img class="works_image" src="assets/images/works/office2.jpg" alt="">
                        <div class="works_info">
-                           <div class="works_title">creatively designed</div>
-                           <div class="works_text">Lorem ipsum dolor sit</div>
+                           <div class="works_title">CloudLayout</div>
+                           <div class="works_text">Interior</div>
                        </div>
                    </div>
                </div>
                <div class="works_col">
                    <div class="works_item">
-                       <img class="works_image" src="assets/images/works/3.jpg" alt="">
+                       <img class="works_image" src="assets/images/works/office3.jpg" alt="">
                        <div class="works_info">
-                           <div class="works_title">creatively designed</div>
-                           <div class="works_text">Lorem ipsum dolor sit</div>
+                           <div class="works_title">CloudLayout</div>
+                           <div class="works_text">Interior</div>
                        </div>
                    </div>
                    <div class="works_item">
-                       <img class="works_image" src="assets/images/works/4.jpg" alt="">
+                       <img class="works_image" src="assets/images/works/office4.jpg" alt="">
                        <div class="works_info">
-                           <div class="works_title">creatively designed</div>
-                           <div class="works_text">Lorem ipsum dolor sit</div>
-                       </div>
-                   </div>
-               </div>
-               <div class="works_col">
-                   <div class="works_item">
-                       <img class="works_image" src="assets/images/works/5.jpg" alt="">
-                       <div class="works_info">
-                           <div class="works_title">creatively designed</div>
-                           <div class="works_text">Lorem ipsum dolor sit</div>
+                           <div class="works_title">CloudLayout</div>
+                           <div class="works_text">Interior</div>
                        </div>
                    </div>
                </div>
                <div class="works_col">
                    <div class="works_item">
-                       <img class="works_image" src="assets/images/works/6.jpg" alt="">
+                       <img class="works_image" src="assets/images/works/office5.jpg" alt="">
                        <div class="works_info">
-                           <div class="works_title">creatively designed</div>
-                           <div class="works_text">Lorem ipsum dolor sit</div>
+                           <div class="works_title">CloudLayout</div>
+                           <div class="works_text">Interior</div>
                        </div>
                    </div>
                    <div class="works_item">
-                       <img class="works_image" src="assets/images/works/7.jpg" alt="">
+                       <img class="works_image" src="assets/images/works/office6.jpg" alt="">
                        <div class="works_info">
-                           <div class="works_title">creatively designed</div>
-                           <div class="works_text">Lorem ipsum dolor sit</div>
+                           <div class="works_title">CloudLayout</div>
+                           <div class="works_text">Interior</div>
+                       </div>
+                   </div>
+               </div>
+               <div class="works_col">
+                   <div class="works_item">
+                       <img class="works_image" src="assets/images/works/office7.jpg" alt="">
+                       <div class="works_info">
+                           <div class="works_title">CloudLayout</div>
+                           <div class="works_text">Interior</div>
+                       </div>
+                   </div>
+                   <div class="works_item">
+                       <img class="works_image" src="assets/images/works/office8.png" alt="">
+                       <div class="works_info">
+                           <div class="works_title">CloudLayout</div>
+                           <div class="works_text">Interior</div>
                        </div>
                    </div>
                </div>
@@ -528,25 +510,32 @@
                         <div class="reviews_item">
                             <img class="reviews_icon" src="assets/images/works/icon.png" alt="">
                             <div class="reviews_text">
-                                <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                    sed do eiusmod tempor incididunt ut labore et dolore
-                                    magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation.”</p>
+                                <p>“Society is better acquainted with poor design than with good design.
+                                    It is because of this that people prefer poor design over good.
+                                    They have become too busy with what they are. Everything new
+                                    begins to frighten, and the old consoles them.”</p>
                             </div>
-                            <div class="reviews_author">Joshua Earle</div>
+                            <div class="reviews_author">Paul Rand</div>
                         </div>
                     </div>
-
                     <div>
                         <div class="reviews_item">
                             <img class="reviews_icon" src="assets/images/works/icon.png" alt="">
                             <div class="reviews_text">
-                                <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                    sed do eiusmod tempor incididunt ut labore et dolore
-                                    magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation.”</p>
+                                <p>“There are three answers to the design result - yes, no, and WOW! "Wow" is something to strive for."</p>
                             </div>
-                            <div class="reviews_author">Killean Murphy</div>
+                            <div class="reviews_author">Milton Glaser</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="reviews_item">
+                            <img class="reviews_icon" src="assets/images/works/icon.png" alt="">
+                            <div class="reviews_text">
+                                <p>“I have never had problems with bad customers.
+                                    There is no such thing as a bad customer. Part of our job is to do
+                                    this job well, and get the client to accept it.”</p>
+                            </div>
+                            <div class="reviews_author">Bob Gill</div>
                         </div>
                     </div>
                 </div>
@@ -563,35 +552,31 @@
          <div class="clients">
              <div class="clients_item">
                  <img class="clients_image" src="assets/images/clients/1.png" alt="">
-                 <div class="clients_name">Matthew Dix</div>
-                 <div class="clients_prof">Graphic Design</div>
-                 <div class="clients_text">Lorem ipsum dolor sit amet, consectetur
-                     adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                         et dolore magna aliqua. Ut enim ad minim.</div>
+                 <div class="clients_name">Bob Singer</div>
+                 <div class="clients_prof">Businessman</div>
+                 <div class="clients_text">Wonderful company with nice employees.
+                     The site was completed on time, thanks to you my sales went up.</div>
              </div>
              <div class="clients_item">
                  <img class="clients_image" src="assets/images/clients/2.png" alt="">
                  <div class="clients_name">Nick Karvounis</div>
-                 <div class="clients_prof">Graphic Design</div>
-                 <div class="clients_text">Sit amet, consectetur adipiscing elit,
-                     sed do eiusmod tempor incididunt ut labore et dolore magna
-                     aliqua. Ut enim ad minim veniam.</div>
+                 <div class="clients_prof">Actor</div>
+                 <div class="clients_text">They made a wonderful portfolio, thanks to which many new people
+                     learned about me and I was followed by thousand followers on Instagram.</div>
              </div>
              <div class="clients_item">
                  <img class="clients_image" src="assets/images/clients/3.png" alt="">
                  <div class="clients_name">Jaelynn Castillo</div>
-                 <div class="clients_prof">Graphic Design</div>
-                 <div class="clients_text">Ipsum dolor sit amet, consectetur
-                     adipiscing elit, sed do eiusmod tempor incididunt ut
-                     labore et dolore magna aliqua. Ut enim ad minim veniam.</div>
+                 <div class="clients_prof">Photographer</div>
+                 <div class="clients_text">Made a wonderful site with my work and my courses,
+                     thanks to this I was offered a job as a photographer in a large company.</div>
              </div>
              <div class="clients_item">
                  <img class="clients_image" src="assets/images/clients/4.png" alt="">
                  <div class="clients_name">Mike Petrucci</div>
-                 <div class="clients_prof">Graphic Design</div>
-                 <div class="clients_text">Dolor sit amet, consectetur adipiscing
-                     elit, sed do eiusmod tempor incididunt ut labore et dolore
-                     magna aliqua. Ut enim ad minim.</div>
+                 <div class="clients_prof">Chef</div>
+                 <div class="clients_text">Thanks to a comfortable site, the sale of my dishes has also become online,
+                     many new customers have been added.</div>
              </div>
          </div>
      </div>
@@ -600,8 +585,8 @@
  <section class="section" id="blog">
      <div class="container">
          <div class="section_header">
-             <h3 class="section_suptitle">Our stories</h3>
-             <h2 class="section_title">Latest blog</h2>
+             <h3 class="section_suptitle">Interesting news</h3>
+             <h2 class="section_title">Latest blogs</h2>
          </div>
          <div class="blog">
              <div class="blog_item"> <!--1-->
@@ -616,11 +601,10 @@
                  </div>
                  <div class="blog_content">
                      <div class="blog_title">
-                         <a href="">Lorem ipsum dolor sit amet</a>
+                         <a href="">how to tidy up your workplace</a>
                      </div>
-                     <div class="blog_text">Consectetur adipiscing elit,
-                         sed do eiusmod tempor incididunt ut labore
-                         et dolore.</div>
+                     <div class="blog_text">Article from a famous psychologist about how
+                         to keep your workplace and thoughts in order.</div>
                  </div>
                  <div class="blog_footer">
                      <div class="blog-stat">
@@ -645,11 +629,10 @@
                  </div>
                  <div class="blog_content">
                      <div class="blog_title">
-                         <a href="">sed do eiusmod tempor</a>
+                         <a href="">how to rest quickly and be healthy</a>
                      </div>
-                     <div class="blog_text">Adipiscing elit, sed
-                         do eiusmod tempor incididunt ut labore
-                         et dolore magna aliqua.</div>
+                     <div class="blog_text">How to rest quickly and correctly
+                         so that your eyes and back are always healthy and not tired.</div>
                  </div>
                  <div class="blog_footer">
                      <div class="blog-stat">
@@ -674,11 +657,10 @@
                  </div>
                  <div class="blog_content">
                      <div class="blog_title">
-                         <a href="">incididunt ut labore et amet</a>
+                         <a href="">main marketing rules</a>
                      </div>
-                     <div class="blog_text">Elit, sed do eiusmod tempor
-                         incididunt ut labore et dolore magna aliqua
-                          incididunt et.</div>
+                     <div class="blog_text">How to learn how to sell good products at
+                         a good price, and how to work with customers.</div>
                  </div>
                  <div class="blog_footer">
                      <div class="blog-stat">
@@ -700,7 +682,7 @@
         <div class="map">
             <h2 class="map_title">
                 <div><i class="fas fa-map-marker-alt"></i></div>
-                <a href="https://goo.gl/maps/Ap7Zg3qsKCNepKXK8" target="_blank">Open map</a>
+                <a href="https://goo.gl/maps/Ap7Zg3qsKCNepKXK8" target="_blank">Find us on a map</a>
             </h2>
         </div>
     </div>
@@ -709,11 +691,11 @@
      <div class="container">
          <div class="footer_inner">
              <div class="footer_col footer_col--first">
-                 <div class="footer_logo">MoGo</div>
-                 <div class="footer_text">Lorem ipsum dolor sit amet, consectetur adipiscing
-                     elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                     laboris nisi ut aliquip ex ea commodo consequat. </div>
+                 <div class="footer_logo">CloudLayout</div>
+                 <div class="footer_text">A huge company web content and website development.
+                     An individual approach to each client, reasonable prices and creative workers.
+                     All of this is cloudlight.
+                     Call our manager from 9:00 to 20:00 at any time.</div>
                  <div class="footer_social">
                      <div class="footer_social-header">
                          <b>15k</b> followers
@@ -759,9 +741,8 @@
                                  <img class="blogs_image" src="assets/images/footer/1.jpg" alt="">
                              </a>
                              <div class="blogs_content">
-                                 <a class="blogs_title" href="#">Lorem ipsum dolor sit amet,
-                                         consectetur adipiscing</a>
-                                 <div class="blogs_date">Jan 9, 2016</div>
+                                 <a class="blogs_title" href="#">current programming languages</a>
+                                 <div class="blogs_date">Jan 9, 2019</div>
                              </div>
                          </div>
                          <div class="blogs_item">
@@ -769,9 +750,8 @@
                                  <img class="blogs_image" src="assets/images/footer/2.jpg" alt="">
                              </a>
                              <div class="blogs_content">
-                                 <a class="blogs_title" href="#">Consectetur adipiscing elit,
-                                     sed do eiusmod tempor</a>
-                                 <div class="blogs_date">Jan 9, 2016</div>
+                                 <a class="blogs_title" href="#">Find middle front-end and back-end developers</a>
+                                 <div class="blogs_date">Jan 5, 2019</div>
                              </div>
                          </div>
                          <div class="blogs_item">
@@ -779,9 +759,8 @@
                                  <img class="blogs_image" src="assets/images/footer/3.jpg" alt="">
                              </a>
                              <div class="blogs_content">
-                                 <a class="blogs_title" href="#">sed do eiusmod tempor
-                                     incididunt ut labore</a>
-                                 <div class="blogs_date">Jan 9, 2016</div>
+                                 <a class="blogs_title" href="#">What should be a website for selling goods</a>
+                                 <div class="blogs_date">Jan 1, 2019</div>
                              </div>
                          </div>
                     </div>
@@ -821,7 +800,7 @@
              </div>
          </div>
          <div class="copyright">
-             © 2016 MoGo free PSD template by <span>Laaqiq</span>
+             © 2019 CloudLayout by <span>Yaroslav Bulavin</span>
          </div>
      </div>
  </footer>

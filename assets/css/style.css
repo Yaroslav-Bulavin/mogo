@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     flex-direction: column;
     justify-content: center;
-    background-image: url("../images/intro.jpg");
+    background-image: linear-gradient(180deg, rgba(243,129,129,0.7491947462578781) 0%, rgba(252,227,138,0.8724440459777661) 100%), url("../images/intro3.png");
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .intro_title {
 
-    font-size: 150px;
+    font-size: 130px;
     font-weight: 700;
     text-align: center;
     text-transform: uppercase;
@@ -196,6 +196,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     font-size: 30px;
     color: #fff;
+    cursor: pointer;
 }
 .header_inner {
     display: flex;
@@ -650,8 +651,7 @@ hr {
 }
 .works_item {
     position: relative;
-    background: linear-gradient(
-            to bottom,#f38181,#fce38a);
+    background: linear-gradient(180deg, rgba(243,129,129,0.7491947462578781) 0%, rgba(252,227,138,0.8724440459777661) 100%);
 }
 .works_item:hover .works_image {
     opacity: .1;
@@ -1044,7 +1044,7 @@ hr {
     }
 
     .intro_title {
-        font-size: 125px;
+        font-size: 112px;
     }
 }
 @media (max-width: 1600px) {
@@ -1306,7 +1306,7 @@ hr {
         font-size: 25px;
     }
     .intro_title {
-        font-size: 55px;
+        font-size: 40px;
     }
 
     /*Section*/
@@ -1434,7 +1434,11 @@ hr {
         height: 50px;
     }
 }
-
+@media (max-width: 575px) {
+    .intro_title {
+        font-size: 35px;
+    }
+}
 
 
 
